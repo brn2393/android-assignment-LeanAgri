@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/overflow_sort_by_date"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort by Date" />
+    <item
+        android:id="@+id/overflow_sort_by_rating"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort by Ratings" />
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssignmentLeanAgri</string>
+    <string name="tmdb_api_key">d8e9a35639da1364f3abe54dec4be442</string>
+    <string name="lbl_no_movies_available">No Movies Available</string>
+    <string name="lbl_no_details_available">No Movie Details Available</string>
+    <string name="lbl_movie_popularity">Popularity: %1$.2f</string>
+    <string name="lbl_movie_votes">Votes: %1$d</string>
+    <string name="iv_movie_avatar">Movie Avatar</string>
+</resources>
