@@ -19,7 +19,7 @@ fun RecyclerView.setupAdapter(adapter: MoviesListAdapter) {
 fun ImageView.imageUrl(imageUrl: String) {
     Glide.with(this.context)
         .load("https://image.tmdb.org/t/p/w500/$imageUrl")
-        .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+        .diskCacheStrategy(DiskCacheStrategy.ALL)
         .skipMemoryCache(false)
         .error(R.drawable.ic_launcher_background)
         .placeholder(R.drawable.ic_launcher_background)
